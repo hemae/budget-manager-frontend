@@ -1,0 +1,29 @@
+@mixin tabs {
+  --tabs-border-bottom: none;
+  --tabs-item-flex: 1;
+  --tabs-item-width: unset;
+
+  --tabs-item-background: var(--gray-default-dark-800);
+  --tabs-item-background-hover: var(--gray-default-dark-800);
+  --tabs-item-background-pressed: var(--gray-default-dark-800);
+
+  --tabs-item-text: var(--gray-default-dark-600);
+  --tabs-item-text-hover: var(--color-primary);
+  --tabs-item-text-pressed: var(--color-primary);
+
+  --tabs-item-border: var(--gray-default-dark-600);
+  --tabs-item-border-hover: var(--color-primary);
+  --tabs-item-border-pressed: var(--color-primary);
+
+  --tabs-item-active-background: var(--color-primary);
+  --tabs-item-active-background-hover: var(--color-primary);
+  --tabs-item-active-background-pressed: var(--color-primary);
+
+  --tabs-item-active-text: var(--white-default-dark);
+  --tabs-item-active-text-hover: var(--white-default-dark);
+  --tabs-item-active-text-pressed: var(--white-default-dark);
+
+  --tabs-item-active-border: none;
+  --tabs-item-active-border-hover: none;
+  --tabs-item-active-border-pressed: none;
+}

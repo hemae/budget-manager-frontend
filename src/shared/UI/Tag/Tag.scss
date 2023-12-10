@@ -1,0 +1,15 @@
+.ui-tag {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border-radius: 4px;
+  width: max-content;
+
+  &__clear-button {
+    margin-left: 10px;
+    transition: color .15s;
+    cursor: pointer;
+  }
+}

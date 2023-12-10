@@ -1,0 +1,6 @@
+@mixin header-text {
+  --color-header-text: var(--color-text);
+  --color-header-text-hover: var(--color-text);
+  --color-header-text-selected: var(--color-text);
+  --color-header-text-selected-hover: var(--color-text);
+}

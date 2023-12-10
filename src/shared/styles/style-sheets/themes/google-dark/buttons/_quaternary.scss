@@ -1,0 +1,28 @@
+@mixin button-quaternary {
+
+  --color-button-background-quaternary: var(--color-transparent);
+  --color-button-background-quaternary-hover: var(--color-transparent);
+  --color-button-background-quaternary-pressed: var(--color-transparent);
+  --color-button-background-quaternary-disabled: var(--color-transparent);
+
+  --color-button-text-quaternary: var(--blue-google-dark-600);
+  --color-button-text-quaternary-hover: var(--gray-google-dark-700);
+  --color-button-text-quaternary-pressed: var(--gray-google-dark-700);
+  --color-button-text-quaternary-disabled: var(--gray-google-dark-800);
+
+  --color-button-border-quaternary: var(--color-primary);
+  --color-button-border-quaternary-hover: var(--gray-google-dark-700);
+  --color-button-border-quaternary-pressed: var(--gray-google-dark-700);
+  --color-button-border-quaternary-disabled: var(--gray-google-dark-800);
+
+  --color-button-box-shadow-quaternary: none;
+  --color-button-box-shadow-quaternary-hover: none;
+  --color-button-box-shadow-quaternary-pressed: none;
+  --color-button-box-shadow-quaternary-disabled: none;
+
+  --color-button-text-shadow-quaternary: none;
+  --color-button-text-shadow-quaternary-hover: none;
+  --color-button-text-shadow-quaternary-pressed: none;
+  --color-button-text-shadow-quaternary-disabled: none;
+
+}

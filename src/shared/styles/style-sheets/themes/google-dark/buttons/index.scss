@@ -1,0 +1,12 @@
+@import "primary";
+@import "secondary";
+@import "tertiary";
+@import "quaternary";
+
+
+@mixin buttons {
+  @include button-primary;
+  @include button-secondary;
+  @include button-tertiary;
+  @include button-quaternary;
+}

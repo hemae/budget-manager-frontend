@@ -1,0 +1,19 @@
+.widget-layout-header-menu {
+  display: flex;
+
+  > *:not(:last-child) {
+    margin-right: 4px;
+  }
+
+  > * {
+    text-decoration: none;
+    padding: 3px 10px !important;
+  }
+
+  &__current-project {
+    color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

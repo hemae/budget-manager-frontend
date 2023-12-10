@@ -1,0 +1,1 @@
+export { splitCamelCase } from './splitCamelCase';

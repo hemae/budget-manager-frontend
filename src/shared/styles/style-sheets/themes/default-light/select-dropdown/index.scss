@@ -1,0 +1,8 @@
+@mixin select-dropdown {
+  --color-option-text: var(--green-default-light-900);
+  --color-option-text-hover: var(--color-primary);
+  --color-option-text-selected: var(--color-primary);
+  --color-option-background: var(--color-transparent);
+  --color-option-background-hover:var(--gray-default-light-700);
+  --color-option-background-selected: var(--green-default-light-200);
+}

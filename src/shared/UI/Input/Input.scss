@@ -1,0 +1,208 @@
+.ui-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  transition: all .15s;
+  position: relative;
+  width: 100%;
+
+  &.disabled {
+    cursor: not-allowed;
+  }
+
+  &__input {
+    transition: all .15s;
+    border: none;
+    flex: 1;
+    background: none;
+
+    &:disabled {
+      cursor: not-allowed;
+    }
+
+    &.small {
+      padding: 3px;
+    }
+
+    &.medium {
+      padding: 6px;
+    }
+
+    &.large {
+      padding: 10px;
+    }
+
+    &.textarea {
+      height: 100px;
+      resize: none;
+    }
+  }
+
+  &__icon {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .15s;
+
+    &.small {
+      padding: 3px 0;
+    }
+
+    &.medium {
+      padding: 6px 0;
+    }
+
+    &.large {
+      padding: 10px 0;
+    }
+
+    &.interactive {
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+
+    &.prefix {
+      &.small {
+        padding-left: 3px;
+      }
+
+      &.medium {
+        padding-left: 6px;
+      }
+
+      &.large {
+        padding-left: 10px;
+      }
+    }
+
+    &.suffix {
+      &.small {
+        padding-right: 3px;
+      }
+
+      &.medium {
+        padding-right: 6px;
+      }
+
+      &.large {
+        padding-right: 10px;
+      }
+    }
+
+    &.focus {
+
+    }
+  }
+
+  &__label {
+    font-size: 12px;
+    position: absolute;
+    bottom: calc(100% + 2px);
+    transition: all .15s;
+    left: 0;
+    cursor: text;
+
+    &.google {
+
+      font-size: 15px;
+      svg {
+        display: none;
+      }
+
+      &.active {
+        font-size: 12px;
+        svg {
+          display: initial;
+        }
+      }
+
+      &.small {
+        bottom: 2px;
+        left: 9px;
+        font-weight: 400;
+
+        &.iconLeft {
+          left: 24px;
+        }
+
+        &.textarea {
+          bottom: calc(100% - 28px);
+        }
+
+        &.active {
+          bottom: calc(100% - 3px);
+          left: 10px;
+          padding: 0 5px;
+
+          svg {
+            display: initial;
+          }
+        }
+      }
+
+      &.medium {
+        bottom: 5px;
+        left: 13px;
+        font-weight: 400;
+
+        &.iconLeft {
+          left: 28px;
+        }
+
+        &.textarea {
+          bottom: calc(100% - 30px);
+        }
+
+        &.active {
+          bottom: calc(100% - 9px);
+          left: 10px;
+          padding: 0 5px;
+
+          svg {
+            display: initial;
+          }
+        }
+      }
+
+      &.large {
+        bottom: 8px;
+        left: 13px;
+        font-weight: 400;
+
+        &.iconLeft {
+          left: 36px;
+        }
+
+        &.textarea {
+          bottom: calc(100% - 34px);
+        }
+
+        &.active {
+          bottom: calc(100% - 9px);
+          left: 10px;
+          padding: 0 5px;
+
+          svg {
+            display: initial;
+          }
+        }
+      }
+    }
+  }
+}
+
+.ui-input-wrapper {
+  position: relative;
+  display: flex;
+
+  &__feedback {
+    font-size: 12px;
+    position: absolute;
+    top: calc(100% + 2px);
+  }
+}

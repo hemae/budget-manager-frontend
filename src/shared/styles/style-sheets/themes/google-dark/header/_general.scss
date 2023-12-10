@@ -1,0 +1,7 @@
+@mixin header-general {
+  --color-header-background: var(--color-header);
+  --color-header-text: var(--color-text);
+  --color-header-border: none;
+  --header-external-link-current-border-color: var(--blue-google-dark-600);
+  --header-external-link-border-color-hover: var(--gray-google-dark-600);
+}

@@ -1,0 +1,25 @@
+body * {
+  &::-webkit-scrollbar {
+    width: 5px !important;
+    height: 5px !important;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: rgba(#cccccc, 0.4) !important;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(#d0d0d0, 0.8) !important;
+  }
+}
+
+html {
+  &::-webkit-scrollbar {
+    width: 0 !important;
+    height: 0 !important;
+  }
+}
+
+.not-scrollable {
+  overflow: hidden;
+}

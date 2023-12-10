@@ -1,0 +1,9 @@
+@mixin badges {
+  --color-badge-general-background: var(--gray-default-dark-900);
+  --color-badge-general-text: var(--white-default-dark);
+  --color-badge-success-background: var(--green-default-dark-800);
+  --color-badge-success-text: var(--green-default-dark-50);
+  --color-badge-danger-background: var(--red-default-dark-500);
+  --color-badge-danger-text: var(--red-default-dark-50);
+  --badge-border-radius: 4px;
+}

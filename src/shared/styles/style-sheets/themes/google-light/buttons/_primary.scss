@@ -1,0 +1,27 @@
+@mixin button-primary {
+
+  --color-button-background-primary: var(--color-primary);
+  --color-button-background-primary-hover: var(--blue-google-light-800);
+  --color-button-background-primary-pressed: var(--blue-google-light-800);
+  --color-button-background-primary-disabled: var(--blue-google-light-300);
+
+  --color-button-text-primary: var(--white-google-light);
+  --color-button-text-primary-hover: var(--white-google-light);
+  --color-button-text-primary-pressed: var(--white-google-light);
+  --color-button-text-primary-disabled: var(--white-google-light);
+
+  --color-button-border-primary: var(--color-transparent);
+  --color-button-border-primary-hover: var(--color-transparent);
+  --color-button-border-primary-pressed: var(--color-transparent);
+  --color-button-border-primary-disabled: var(--color-transparent);
+
+  --color-button-box-shadow-primary: none;
+  --color-button-box-shadow-primary-hover: none;
+  --color-button-box-shadow-primary-pressed: none;
+  --color-button-box-shadow-primary-disabled: none;
+
+  --color-button-text-shadow-primary: none;
+  --color-button-text-shadow-primary-hover: none;
+  --color-button-text-shadow-primary-pressed: none;
+  --color-button-text-shadow-primary-disabled: none;
+}

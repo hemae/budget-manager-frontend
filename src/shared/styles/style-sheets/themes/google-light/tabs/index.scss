@@ -1,0 +1,29 @@
+@mixin tabs {
+  --tabs-border-bottom: 1px solid var(--gray-google-light-300);
+  --tabs-item-flex: unset;
+  --tabs-item-width: max-content;
+
+  --tabs-item-background: var(--color-transparent);
+  --tabs-item-background-hover: var(--gray-google-light-100);
+  --tabs-item-background-pressed: var(--gray-google-light-200);
+
+  --tabs-item-text: var(--color-text);
+  --tabs-item-text-hover: var(--color-primary);
+  --tabs-item-text-pressed: var(--color-primary);
+
+  --tabs-item-border: none;
+  --tabs-item-border-hover: none;
+  --tabs-item-border-pressed: none;
+
+  --tabs-item-active-background: var(--color-transparent);
+  --tabs-item-active-background-hover: var(--blue-google-light-50);
+  --tabs-item-active-background-pressed: var(--color-transparent);
+
+  --tabs-item-active-text: var(--color-primary);
+  --tabs-item-active-text-hover: var(--color-primary);
+  --tabs-item-active-text-pressed: var(--color-primary);
+
+  --tabs-item-active-border: none;
+  --tabs-item-active-border-hover: none;
+  --tabs-item-active-border-pressed: none;
+}

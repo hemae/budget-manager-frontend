@@ -1,0 +1,27 @@
+.widget-layout-header-currencies {
+  display: flex;
+  color: var(--color-text);
+  align-items: center;
+
+  > *:not(:last-child) {
+    margin-right: 4px;
+  }
+
+  .ui-input,
+  input {
+    width: 100%;
+  }
+
+  .ui-select {
+    width: 70px;
+  }
+
+  > .ui-input-wrapper {
+    width: 120px;
+  }
+
+  > span {
+    width: 100px;
+    text-align: right;
+  }
+}

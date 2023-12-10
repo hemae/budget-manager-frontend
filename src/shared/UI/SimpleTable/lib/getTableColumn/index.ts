@@ -1,0 +1,1 @@
+export { getTableColumn } from './getTableColumn';

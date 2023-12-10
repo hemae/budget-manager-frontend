@@ -1,0 +1,1 @@
+export { detectType } from './detectType';

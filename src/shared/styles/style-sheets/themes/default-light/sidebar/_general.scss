@@ -1,0 +1,5 @@
+@mixin side-bar-background {
+  --color-side-bar-background: var(--color-sidebar-background);
+  --color-side-bar-border: var(--color-transparent);
+  --color-side-bar-box-shadow: none;
+}

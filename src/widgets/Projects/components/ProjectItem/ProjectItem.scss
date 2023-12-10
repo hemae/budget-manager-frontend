@@ -1,0 +1,44 @@
+.widget-projects-item {
+
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  border: 1px solid var(--color-text);
+  cursor: pointer;
+  transition: all 150ms;
+
+  &.current {
+    box-shadow: 0 0 10px var(--color-primary);
+  }
+
+  &:hover {
+    transform: scale(0.95);
+  }
+
+  &__body {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--color-text);
+    flex: 1;
+
+    > span {
+      text-align: center;
+    }
+  }
+
+  &__current {
+    color: var(--color-primary)
+  }
+
+  &__menu {
+    display: flex;
+    height: 20px;
+
+    > * {
+      flex: 1;
+    }
+  }
+}

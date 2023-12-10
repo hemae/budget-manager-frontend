@@ -1,0 +1,6 @@
+@mixin notify-warning {
+  --color-notify-warning-background: var(--color-warning-notify);
+  --color-notify-warning-text: rgba(255, 255, 255, 0.85);
+  --color-notify-warning-box-shadow: 0 3px 10px rgb(0 0 0 / 15%);
+  --color-notify-warning-border: var(--color-transparent);
+}

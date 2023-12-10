@@ -1,0 +1,25 @@
+.ui-multiselect {
+
+  &__selected-content {
+    display: flex;
+    flex-wrap: wrap;
+    > * {
+      margin: 5px;
+    }
+  }
+
+  &__selected {
+    display: flex;
+    align-items: center;
+    color: var(--color-text);
+    border: 1px solid var(--color-primary);
+    width: max-content;
+    padding: 2px;
+
+    svg {
+      margin-left: 12px;
+      cursor: pointer;
+      margin-top: 3px;
+    }
+  }
+}

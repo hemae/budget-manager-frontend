@@ -1,0 +1,77 @@
+.widget-budget-day-expense-income-form {
+  display: flex;
+  width: 100%;
+
+  .ui-input {
+    width: 100%;
+
+    &.expense {
+
+      background-color: transparent !important;
+
+      input {
+        color: var(--color-yellow);
+      }
+    }
+
+    &.income {
+
+      background-color:  transparent !important;
+
+      input {
+        color: var(--color-green);
+      }
+    }
+  }
+
+  input {
+    width: 100%;
+  }
+
+  > *:nth-child(1) {
+    flex: 0.6;
+  }
+
+  > *:nth-child(2) {
+    flex: 0.6;
+  }
+
+  > *:nth-child(3) {
+    flex: 0.5;
+  }
+
+  > *:nth-child(4) {
+    flex: 1;
+  }
+
+  > *:nth-child(5) {
+    flex: 1;
+  }
+
+  button {
+    width: 40px;
+    padding: 0;
+    flex: 0.2;
+
+    &.delete {
+      background-color: var(--color-invalid);
+    }
+
+    &.create {
+      flex: 0.42;
+      background-color: var(--blue-default-light-400);
+    }
+  }
+
+  > *:nth-child(6) {
+
+  }
+
+  > *:nth-child(7) {
+
+  }
+
+  > *:not(:last-child) {
+    margin-right: 4px;
+  }
+}

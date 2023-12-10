@@ -1,0 +1,49 @@
+.ui-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: max-content;
+  cursor: pointer;
+  transition: all .15s;
+
+  &_small {
+    padding: 4px 15px;
+  }
+
+  &_medium {
+    padding: 6px 15px;
+  }
+
+  &_large {
+    padding: 8px 24px;
+  }
+
+  &__spinner {
+    width: 0;
+    height: 0;
+    transition: all .15s;
+
+    > * {
+      display: none;
+    }
+
+    &.loading {
+      width: 16px;
+      height: 16px;
+      margin-right: 6px;
+
+      > * {
+        display: flex;
+      }
+    }
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+
+  &.loading {
+    cursor: progress !important;
+  }
+}

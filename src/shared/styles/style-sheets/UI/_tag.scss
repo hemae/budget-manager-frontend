@@ -1,0 +1,12 @@
+.ui-tag {
+
+  background-color: #ecf7ff;
+
+  &__clear-button {
+    color: #e0e0e0;
+
+    &:hover {
+      color: var(--color-primary);
+    }
+  }
+}

@@ -1,0 +1,12 @@
+@import "icons";
+@import "link";
+@import "sublink";
+@import "general";
+
+
+@mixin sidebar {
+  @include side-bar-icons;
+  @include side-bar-link;
+  @include side-bar-sublink;
+  @include side-bar-background;
+}

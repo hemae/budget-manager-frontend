@@ -1,0 +1,8 @@
+body .react-tooltip {
+  background: var(--color-new-tooltip-background);
+  color: var(--color-new-tooltip-font);
+  opacity: var(--opacity-new-tooltip);
+  font-size: 14px;
+  white-space: pre-wrap;
+  z-index: 9999;
+}

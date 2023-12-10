@@ -1,0 +1,6 @@
+@mixin notify-error {
+  --color-notify-error-background: var(--color-error-notify);
+  --color-notify-error-text: var(--color-notify-text);
+  --color-notify-error-box-shadow: 0 3px 10px rgb(0 0 0 / 15%);
+  --color-notify-error-border: var(--color-transparent);
+}

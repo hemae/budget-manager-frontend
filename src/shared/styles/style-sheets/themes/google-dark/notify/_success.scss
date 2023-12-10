@@ -1,0 +1,6 @@
+@mixin notify-success {
+  --color-notify-success-background: var(--color-success-notify);
+  --color-notify-success-text: var(--color-notify-text);
+  --color-notify-success-box-shadow: 0 3px 10px rgb(0 0 0 / 15%);
+  --color-notify-success-border: var(--color-transparent);
+}

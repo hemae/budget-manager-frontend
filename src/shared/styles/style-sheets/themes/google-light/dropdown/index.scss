@@ -1,0 +1,5 @@
+@mixin dropdown {
+  --color-dropdown: var(--color-app-background);
+  --color-dropdown-box-shadow: none;
+  --color-dropdown-border: 1px solid var(--gray-google-light-300);
+}

@@ -1,0 +1,14 @@
+.widget-projects-item-modal {
+  padding: 24px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+
+  > *:not(:last-child) {
+    margin-bottom: 24px;
+  }
+
+  button {
+    align-self: flex-end;
+  }
+}

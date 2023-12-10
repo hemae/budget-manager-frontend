@@ -1,0 +1,74 @@
+.ui-single-calendar {
+
+}
+
+.ui-double-calendar {
+
+}
+
+.ui-calendar-header {
+
+  color: var(--color-calendar-text);
+
+  border-bottom: 1px solid var(--color-calendar-border);
+
+  &__icon {
+    color: var(--color-calendar-border);
+  }
+}
+
+.ui-calendar-item {
+  //border-radius: 4px;
+  transition: all .15s;
+  color: var(--color-calendar-text);
+}
+
+.ui-calendar-interactive-item {
+
+  color: var(--color-calendar-text);
+
+  &:hover {
+    background-color: var(--color-calendar-item-hover);
+  }
+
+  &.selecting {
+    background-color: #60a6ee;
+    color: var(--color-calendar-item-selected-text);
+  }
+
+  &.today {
+    box-shadow: 0 0 2px var(--color-calendar-box-shadow-today);
+  }
+
+  &.notActive {
+    color: var(--color-calendar-item-inactive);
+    opacity: 0.7;
+  }
+
+  &.notAvailable {
+    opacity: 0.5;
+    background-color: var(--color-calendar-item-not-available);
+    color: var(--color-calendar-item-not-available-text);
+  }
+
+  &.betweenSelected {
+    border: 1px dotted var(--color-valendar-border-between-selected);
+  }
+
+  &.selected {
+    background-color: var(--color-selected-item-background);
+    color: var(--color-selected-item-text);
+  }
+}
+
+.ui-calendar-days {
+
+}
+
+.ui-calendar-months {
+
+}
+
+.ui-calendar-years {
+
+}

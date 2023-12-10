@@ -1,0 +1,28 @@
+@mixin button-tertiary {
+
+  --color-button-background-tertiary: var(--color-transparent);
+  --color-button-background-tertiary-hover: var(--gray-default-light-700);
+  --color-button-background-tertiary-pressed: var(--gray-default-light-800);
+  --color-button-background-tertiary-disabled: var(--color-transparent);
+
+  --color-button-text-tertiary: var(--white-default-light);
+  --color-button-text-tertiary-hover: var(--white-default-light);
+  --color-button-text-tertiary-pressed: var(--white-default-light);
+  --color-button-text-tertiary-disabled: var(--gray-default-light-400);
+
+  --color-button-border-tertiary: var(--color-transparent);
+  --color-button-border-tertiary-hover: var(--color-transparent);
+  --color-button-border-tertiary-pressed: var(--color-transparent);
+  --color-button-border-tertiary-disabled: var(--color-transparent);
+
+  --color-button-box-shadow-tertiary: none;
+  --color-button-box-shadow-tertiary-hover: none;
+  --color-button-box-shadow-tertiary-pressed: none;
+  --color-button-box-shadow-tertiary-disabled: none;
+
+  --color-button-text-shadow-tertiary: none;
+  --color-button-text-shadow-tertiary-hover: none;
+  --color-button-text-shadow-tertiary-pressed: none;
+  --color-button-text-shadow-tertiary-disabled: none;
+
+}

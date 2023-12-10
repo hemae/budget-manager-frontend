@@ -1,0 +1,48 @@
+.widget-main-income-form {
+  display: flex;
+  width: 100%;
+
+  .ui-input {
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  > *:nth-child(1) {
+    flex: 1.2;
+  }
+
+  > *:nth-child(2) {
+    flex: 0.7;
+  }
+
+  > *:nth-child(3) {
+    flex: 0.7;
+  }
+
+  > *:nth-child(4) {
+    flex: 0.9;
+  }
+
+  button {
+    max-width: 40px;
+    padding: 0;
+    flex: 0.2;
+
+    &.delete {
+      background-color: var(--color-invalid);
+    }
+
+    &.create {
+      flex: 0.42;
+      max-width: 84px;
+      background-color: var(--blue-default-light-400);
+    }
+  }
+
+  > *:not(:last-child) {
+    margin-right: 4px;
+  }
+}

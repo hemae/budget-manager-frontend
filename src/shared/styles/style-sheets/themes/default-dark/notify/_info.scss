@@ -1,0 +1,6 @@
+@mixin notify-info {
+  --color-notify-info-background: var(--color-info-notify);
+  --color-notify-info-text: var(--color-notify-text);
+  --color-notify-info-box-shadow: 0 3px 10px rgb(0 0 0 / 15%);
+  --color-notify-info-border: var(--color-transparent);
+}

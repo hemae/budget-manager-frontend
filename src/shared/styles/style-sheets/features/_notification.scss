@@ -1,0 +1,57 @@
+.feature-notify-notification {
+
+  &__title {
+    color: currentColor;
+  }
+
+  &__icon {
+    color: currentColor;
+
+    &.success {
+      color: var(--color-notify-success-icon);
+    }
+
+    &.error {
+      color: var(--color-notify-error-icon);
+    }
+
+    &.info {
+      color: var(--color-notify-info-icon);
+    }
+
+    &.warning {
+      color: var(--color-notify-warning-icon);
+    }
+  }
+
+  &__content {
+    color: currentColor;
+  }
+
+  &.success {
+    background: var(--color-notify-success-background);
+    color: var(--color-notify-success-text);
+    border-color: var(--color-notify-success-border);
+    box-shadow: var(--color-notify-success-box-shadow);
+  }
+
+  &.error {
+    background: var(--color-notify-error-background);
+    color: var(--color-notify-error-text);
+    border-color: var(--color-notify-error-border);
+    box-shadow: var(--color-notify-error-box-shadow);
+  }
+
+  &.info {
+    background: var(--color-notify-info-background);
+    color: var(--color-notify-info-text);
+    border-color: var(--color-notify-info-border);
+    box-shadow: var(--color-notify-info-box-shadow);
+  }
+
+  &.warning {
+    background: var(--color-notify-warning-background);
+    color: var(--color-notify-warning-text);
+    box-shadow: var(--color-notify-warning-box-shadow);
+  }
+}

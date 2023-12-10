@@ -1,0 +1,10 @@
+.ui-check-minus-icon {
+
+  &.minus {
+    color: var(--color-check-minus-icon-red);
+  }
+
+  &.check {
+    color: var(--color-check-minus-icon-green);
+  }
+}

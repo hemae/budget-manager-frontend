@@ -1,0 +1,21 @@
+.ui-switcher {
+
+  background-color: #eaeaea;
+
+  &.checked {
+    background-color: var(--color-primary);
+  }
+
+  &__slider {
+
+    background-color: #ffffff;
+
+    &.checked {
+
+    }
+  }
+
+  &.disabled {
+    opacity: 0.7;
+  }
+}

@@ -1,0 +1,6 @@
+@mixin dynamic-progress-bar {
+  --color-progress-bar-thumb-extra-sucess: var(--green-google-light-600);
+  --color-progress-bar-thumb-sucess: var(--green-google-light-300);
+  --color-progress-bar-thumb-warning: var(--yellow-google-light-600);
+  --color-progress-bar-thumb-danger: var(--red-google-light-500);
+}

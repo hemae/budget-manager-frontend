@@ -1,0 +1,17 @@
+@mixin checkbox {
+  --color-checkbox-border: var(--color-text);
+  --color-checkbox-background: var(--color-transparent);
+  --color-checkbox-border-active: var(--color-primary);
+  --color-checkbox-background-active: var(--color-primary);
+  --color-checkbox-border-hover: var(--color-primary);
+  --color-checkbox-check: var(--gray-default-light-50);
+  --color-checkbox-label: var(--color-text);
+  --color-checkbox-label-hover: var(--color-primary);
+  --color-checkbox-label-active: var(--color-text);
+  --checkbox-border-radius: 3px;
+  --checkbox-toggle-size: 100%;
+  --checkbox-border-width: 1px;
+  --checkbox-overlay-active-background: var(--color-transparent);
+  --checkbox-check-margin-top: -2px;
+  --checkbox-check-margin-left: 1.5px;
+}

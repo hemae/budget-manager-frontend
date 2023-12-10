@@ -1,0 +1,14 @@
+@mixin calendar {
+  --color-calendar-border: var(--gray-google-dark-800);
+  --color-calendar-text: var(--color-text);
+  --color-calendar-item-hover: var(--gray-google-dark-800);
+  --color-calendar-item-selected: var(--blue-google-dark-400);
+  --color-calendar-item-selected-text: var(--white-google-dark);
+  --color-calendar-box-shadow-today: var(--color-primary);
+  --color-calendar-item-inactive: var(--gray-google-dark-600);
+  --color-calendar-item-not-available: var(--gray-google-dark-300);
+  --color-calendar-item-not-available-text: var(--white-google-dark);
+  --color-valendar-border-between-selected: var(--blue-google-dark-300);
+  --color-selected-item-background: var(--color-primary);
+  --color-selected-item-text: var(--white-google-dark);
+}

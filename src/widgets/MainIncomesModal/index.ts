@@ -1,0 +1,1 @@
+export {MainIncomesModal} from './MainIncomesModal'

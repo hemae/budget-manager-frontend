@@ -1,0 +1,62 @@
+.ui-loader {
+  position: relative;
+
+  &__loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    display: none;
+    cursor: progress;
+
+    &.shown {
+      display: flex;
+      overflow: hidden;
+      animation: box-native-animation 2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    }
+  }
+
+  &__inner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(60deg, transparent 35%, #c0c0c0 50%, transparent 95%);
+    z-index: 11;
+
+    &.shown {
+      animation: box-inner-animation 2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    }
+  }
+}
+
+@keyframes box-native-animation {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+
+@keyframes box-inner-animation {
+  0% {
+    left: -100%;
+    opacity: 1;
+  }
+  50% {
+    left: 100%;
+    opacity: 0;
+  }
+  100% {
+    left: -100%;
+    opacity: 0;
+  }
+}

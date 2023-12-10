@@ -1,0 +1,23 @@
+@mixin side-bar-link {
+
+  --color-side-bar-link-background: var(--color-transparent);
+  --color-side-bar-link-background-hover: var(--color-transparent);
+  --color-side-bar-link-background-selected: var(--gray-default-dark-800);
+  --color-side-bar-link-background-selected-hover: var(--gray-default-dark-800);
+
+  --color-side-bar-link-text: var(--color-text);
+  --color-side-bar-link-text-hover: var(--color-text);
+  --color-side-bar-link-text-selected: var(--color-text);
+  --color-side-bar-link-text-selected-hover: var(--color-text);
+
+  --color-side-bar-link-border: var(--color-transparent);
+  --color-side-bar-link-border-hover: var(--color-transparent);
+  --color-side-bar-link-border-selected: var(--color-transparent);
+  --color-side-bar-link-border-selected-hover: var(--color-transparent);
+
+  --color-side-bar-link-box-shadow: none;
+  --color-side-bar-link-box-shadow-hover: none;
+  --color-side-bar-link-box-shadow-selected: none;
+  --color-side-bar-link-box-shadow-selected-hover: none;
+
+}

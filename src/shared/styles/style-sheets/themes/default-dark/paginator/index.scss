@@ -1,0 +1,29 @@
+@mixin paginator {
+  --paginator-justify-content: space-between;
+  --paginator-labels-display: none;
+  --paginator-run-number-display: initial;
+  --paginator-prev-next-disabled-display: none;
+  // page size select
+  --paginator-page-size-select-background: var(--color-primary);
+  --paginator-page-size-select-background-hover: var(--blue-default-dark-800);
+  --paginator-page-size-select-background-pressed: var(--blue-default-dark-900);
+  --paginator-page-size-select-text: var(--white-default-dark);
+  --paginator-page-size-select-text-hover: var(--white-default-dark);
+  --paginator-page-size-select-text-pressed: var(--white-default-dark);
+  --paginator-page-size-select-border: var(--color-transparent);
+  --paginator-page-size-select-border-hover: var(--color-transparent);
+  --paginator-page-size-select-border-pressed: var(--color-transparent);
+  // page select
+  --paginator-prev-next-background: var(--gray-default-dark-800);
+  --paginator-prev-next-background-hover: var(--gray-default-dark-800);
+  --paginator-prev-next-background-pressed: var(--gray-default-dark-800);
+  --paginator-prev-next-background-disabled: var(--gray-default-dark-800);
+  --paginator-prev-next-text: var(--gray-default-dark-600);
+  --paginator-prev-next-text-hover: var(--color-primary);
+  --paginator-prev-next-text-pressed: var(--color-primary);
+  --paginator-prev-next-text-disabled: var(--gray-default-dark-700);
+  --paginator-prev-next-border: var(--gray-default-dark-600);
+  --paginator-prev-next-border-hover: var(--color-primary);
+  --paginator-prev-next-border-pressed: var(--color-primary);
+  --paginator-prev-next-border-disabled: var(--gray-default-dark-700);
+}

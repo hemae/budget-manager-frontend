@@ -1,0 +1,1 @@
+export {IncomeCategoriesModal} from './IncomeCategoriesModal'

@@ -1,0 +1,31 @@
+@mixin side-bar-icons {
+
+  --color-side-bar-settings-icon: var(--color-text);
+  --color-side-bar-forecasting-icon: var(--color-text);
+  --color-side-bar-scheduling-icon: var(--color-text);
+  --color-side-bar-reporting-icon: var(--color-text);
+  --color-side-bar-menu-toggle-icon: var(--color-text);
+  --color-side-bar-opening-toggle-icon: var(--color-text);
+
+  --color-side-bar-settings-icon-hover: var(--color-text);
+  --color-side-bar-forecasting-icon-hover: var(--color-text);
+  --color-side-bar-scheduling-icon-hover: var(--color-text);
+  --color-side-bar-reporting-icon-hover: var(--color-text);
+  --color-side-bar-menu-toggle-icon-hover: var(--color-text);
+  --color-side-bar-opening-toggle-icon-hover: var(--color-text);
+
+  --color-side-bar-settings-icon-selected: var(--color-text);
+  --color-side-bar-forecasting-icon-selected: var(--color-text);
+  --color-side-bar-scheduling-icon-selected: var(--color-text);
+  --color-side-bar-reporting-icon-selected: var(--color-text);
+  --color-side-bar-menu-toggle-icon-selected: var(--color-text);
+  --color-side-bar-opening-toggle-icon-selected: var(--color-text);
+
+  --color-side-bar-settings-icon-selected-hover: var(--color-text);
+  --color-side-bar-forecasting-icon-selected-hover: var(--color-text);
+  --color-side-bar-scheduling-icon-selected-hover: var(--color-text);
+  --color-side-bar-reporting-icon-selected-hover: var(--color-text);
+  --color-side-bar-menu-toggle-icon-selected-hover: var(--color-text);
+  --color-side-bar-opening-toggle-icon-selected-hover: var(--color-text);
+
+}

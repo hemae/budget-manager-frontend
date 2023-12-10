@@ -1,0 +1,14 @@
+@mixin inputs {
+  --color-input-border-main: var(--gray-google-light-300);
+  --color-input-box-shadow: none;
+  --color-input: var(--color-text);
+  --color-input-placeholder: var(--gray-google-light-300);
+  --color-input-background-disabled: var(--gray-google-light-200);
+  --input-label-font-weight: 400;
+  --input-label-active-font-weight: 600;
+  --color-label: var(--gray-google-light-300);
+  --color-label-active: var(--color-text);
+  --label-background-active: var(--color-app-background);
+  --color-label-background-disabled: var(--gray-google-light-200);
+  --input-label-box-shadow: 0 -1px var(--gray-google-light-300);
+}

@@ -1,0 +1,30 @@
+.feature-modal-popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 14;
+
+  &__body {
+    opacity: 0;
+    transition: all .15s;
+    transform: translateY(-100px);
+    position: relative;
+
+    &.shown {
+      transition: all .5s;
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    > svg[id="close-modal"] {
+      position: absolute;
+      top: 22px;
+      right: 16px;
+    }
+  }
+}

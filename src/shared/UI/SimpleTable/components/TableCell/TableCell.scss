@@ -1,0 +1,27 @@
+.ui-simple-table-cell {
+    word-wrap: break-word;
+    padding: 0.75rem 0.7rem;
+    font-size: 0.65rem;
+    display: flex;
+    align-items: center;
+
+    &.header {
+        background-color: white;
+        color: black;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 1px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    &.data {
+        color: black;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        padding: 1rem 0.7rem;
+        border-bottom: 1px solid black;
+    }
+}

@@ -1,0 +1,6 @@
+@mixin tooltip {
+  --color-tooltip-background: var(--color-tooltips-background);
+  --color-tooltip-text: var(--white-google-dark);
+  --color-tooltip-border: var(--color-transparent);
+  --color-tooltip-box-shadow: none;
+}

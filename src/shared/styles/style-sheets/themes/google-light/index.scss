@@ -1,0 +1,132 @@
+@import "sidebar";
+@import "header";
+@import "body";
+@import "buttons";
+@import "notify";
+@import "icons";
+@import "tooltips";
+@import "react-tooltip";
+@import "validation";
+@import "inputs";
+@import "badges";
+@import "card";
+@import "table";
+@import "calendar";
+@import "dropdown";
+@import "select-dropdown";
+@import "check-minus-icon";
+@import "paginator";
+@import "tabs";
+@import "range";
+@import "checkbox";
+@import "user-avatar";
+@import "loader";
+@import "dynamic-progress-bar";
+
+
+:root[data-theme="google-light"] {
+
+  --main-font: Google Sans;
+
+  --blue-google-light-50: #E8F0FE;
+  --blue-google-light-100: #D2E3FC;
+  --blue-google-light-200: #AECBFA;
+  --blue-google-light-300: #8AB4F8;
+  --blue-google-light-400: #669DF6;
+  --blue-google-light-500: #4285F4;
+  --blue-google-light-600: #1A73E8;
+  --blue-google-light-700: #1967D2;
+  --blue-google-light-800: #185ABC;
+  --blue-google-light-900: #174EA6;
+
+  --red-google-light-50: #FCE8E6;
+  --red-google-light-100: #FAD2CF;
+  --red-google-light-200: #F6AEA9;
+  --red-google-light-300: #F28B82;
+  --red-google-light-400: #EE675C;
+  --red-google-light-500: #EA4335;
+  --red-google-light-600: #D93025;
+  --red-google-light-700: #C5221F;
+  --red-google-light-800: #B31412;
+  --red-google-light-900: #A50E0E;
+
+  --yellow-google-light-50: #FEF7E0;
+  --yellow-google-light-100: #FEEFC3;
+  --yellow-google-light-200: #FDE293;
+  --yellow-google-light-300: #FDD663;
+  --yellow-google-light-400: #FCC934;
+  --yellow-google-light-500: #FBBC04;
+  --yellow-google-light-600: #F9AB00;
+  --yellow-google-light-700: #F29900;
+  --yellow-google-light-800: #EA8600;
+  --yellow-google-light-900: #E37400;
+
+  --green-google-light-50: #E6F4EA;
+  --green-google-light-100: #CEEAD6;
+  --green-google-light-200: #A8DAB5;
+  --green-google-light-300: #81C995;
+  --green-google-light-400: #5BB974;
+  --green-google-light-500: #34A853;
+  --green-google-light-600: #1E8E3E;
+  --green-google-light-700: #188038;
+  --green-google-light-800: #137333;
+  --green-google-light-900: #0D652D;
+
+  --gray-google-light-50: #F8F9FA;
+  --gray-google-light-100: #F1F3F4;
+  --gray-google-light-200: #E8EAED;
+  --gray-google-light-300: #DADCE0;
+  --gray-google-light-400: #BDC1C6;
+  --gray-google-light-500: #9AA0A6;
+  --gray-google-light-600: #80868B;
+  --gray-google-light-700: #5F6368;
+  --gray-google-light-800: #3C4043;
+  --gray-google-light-900: #202124;
+
+  --color-primary: var(--blue-google-light-600);
+  --color-text: var(--gray-google-light-700);
+  --color-sidebar-text: var(--gray-google-light-700);
+  --color-sidebar-link-hover: #F1F3F4;
+  --color-header-text-general: var(--gray-google-light-900);
+  --white-google-light: #ffffff;
+  --black-google-light: #000000;
+  --color-transparent: transparent;
+  --color-error-notify: #f75676;
+  --color-info-notify: #37d5f2;
+  --color-success-notify: #4fd69c;
+  --color-warning-notify: #fc7c5f;
+  --color-notify-text: rgba(255, 255, 255, 0.85);
+  --color-icon-tool: #adb5bd;
+  --color-tooltips-background: #303C45;
+  --color-app-background: var(--white-google-light);
+  --color-header: var(--white-google-light);
+  --color-sidebar-background: var(--white-google-light);
+  --color-green: var(--green-google-light-600);
+  --color-yellow: var(--yellow-google-light-600);
+  --color-border: var(--gray-google-light-300);
+
+  @include sidebar;
+  @include header;
+  @include body;
+  @include buttons;
+  @include notify;
+  @include icons;
+  @include tooltips;
+  @include react-tooltip;
+  @include validation;
+  @include inputs;
+  @include badges;
+  @include card;
+  @include table;
+  @include calendar;
+  @include dropdown;
+  @include select-dropdown;
+  @include check-minus-icon;
+  @include paginator;
+  @include tabs;
+  @include range;
+  @include checkbox;
+  @include user-avatar;
+  @include loader;
+  @include dynamic-progress-bar;
+}

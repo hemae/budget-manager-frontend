@@ -1,0 +1,31 @@
+.ui-error-block {
+
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  > * {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  &__header {
+
+  }
+
+  &__body {
+    > *:not(:first-child) {
+      margin-top: 16px;
+    }
+  }
+
+  &__footer {
+
+  }
+}

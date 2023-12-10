@@ -1,0 +1,21 @@
+.ui-simple-table-row {
+    display: flex;
+    width: 100%;
+
+    &.hover {
+        transition: all 0.15s;
+        &:hover {
+            box-shadow: inset 0 1px 1px black;
+            background: #eaeaea;
+        }
+    }
+
+    &.clickable {
+        cursor: pointer;
+    }
+
+    &.isHeader {
+        width: calc(100% - 4px);
+        margin: 0 2px;
+    }
+}

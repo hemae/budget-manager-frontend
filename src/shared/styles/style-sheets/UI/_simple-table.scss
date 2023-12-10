@@ -1,0 +1,47 @@
+.ui-simple-table {
+
+  &__no-data {
+    color: var(--color-table-no-data);
+    border-bottom: 1px solid var(--color-table-border);
+  }
+}
+
+.ui-simple-table-row {
+  &.hover {
+    &:hover {
+      box-shadow: var(--color-table-hover-box-shadow);
+      background: var(--color-table-hover-background);
+    }
+  }
+}
+
+.ui-simple-table-cell {
+  padding: 0.75rem 0.7rem;
+  font-size: .65rem;
+  display: flex;
+  align-items: center;
+
+  &.header {
+    background-color: var(--color-table-header-background);
+    color: var(--color-table-header-text);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-top: 1px solid var(--color-table-border);
+    border-bottom: 1px solid var(--color-table-border);
+  }
+
+  &.data {
+    color: var(--color-text);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    padding: 1rem 0.7rem;
+    border-bottom: 1px solid var(--color-table-border);
+  }
+}
+
+body .react-bs-table-no-data {
+  text-align: center;
+}

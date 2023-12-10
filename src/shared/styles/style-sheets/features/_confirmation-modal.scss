@@ -1,0 +1,18 @@
+.feature-confirmation-modal {
+
+  &__close {
+    color: white !important;
+  }
+
+  &__header {
+    background-color: var(--color-primary);
+  }
+
+  &__title {
+    color: white;
+  }
+
+  &__content {
+    color: var(--color-text);
+  }
+}

@@ -1,0 +1,10 @@
+.ui-simple-header {
+
+  &__expand-button {
+    color: var(--color-text);
+
+    &:hover {
+      color: var(--color-primary);
+    }
+  }
+}

@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans|Lato|Noto+Sans:400italic,500italic,600italic,700italic,400,500,600,700);
+
+
+body {
+  font-family: var(--main-font);
+  background: var(--color-app-background);
+  opacity: 1;
+}
+
+body *:not(svg),
+body *:not(i){
+  font-family: var(--main-font) !important;
+}
+
+body svg {
+  font-family: Open Sans, sans-serif !important;
+}
+
+body i {
+  font-family: "Font Awesome 5 Free" !important;
+}
+
+body .ni {
+  font: normal normal normal 14px/1 NucleoIcons !important;
+}
+
+div[id='root'] {
+  display: flex;
+}

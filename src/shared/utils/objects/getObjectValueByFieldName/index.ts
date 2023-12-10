@@ -1,0 +1,1 @@
+export { getObjectValueByFieldName } from './getObjectValueByFieldName';

@@ -1,0 +1,7 @@
+@mixin notify-warning {
+  --color-notify-warning-background: var(--gray-google-light-100);
+  --color-notify-warning-icon: var(--yellow-google-light-900);
+  --color-notify-warning-text: var(--color-text);
+  --color-notify-warning-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 10px 20px rgba(0, 0, 0, 0.04);
+  --color-notify-warning-border: var(--color-transparent);
+}

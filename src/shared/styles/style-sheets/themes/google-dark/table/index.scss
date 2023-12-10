@@ -1,0 +1,7 @@
+@mixin table {
+  --color-table-border: var(--gray-google-dark-800);
+  --color-table-text: var(--color-text);
+  --color-table-header-background: var(--color-transparent);
+  --color-table-header-text: var(--color-text);
+  --color-table-no-data: var(--gray-google-dark-700);
+}

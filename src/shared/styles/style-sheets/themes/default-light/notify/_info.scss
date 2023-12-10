@@ -1,0 +1,7 @@
+@mixin notify-info {
+  --color-notify-info-background: var(--gray-default-light-100);
+  --color-notify-info-icon: var(--gray-default-light-900);
+  --color-notify-info-text: var(--color-text);
+  --color-notify-info-box-shadow: none;
+  --color-notify-info-border: var(--color-transparent);
+}

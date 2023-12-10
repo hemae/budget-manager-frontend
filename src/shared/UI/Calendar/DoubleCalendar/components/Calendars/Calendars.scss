@@ -1,0 +1,11 @@
+.ui-calendar-double-calendars {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap !important;
+  justify-content: space-between;
+
+  &__calendar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,17 @@
+@mixin checkbox {
+  --color-checkbox-border: var(--gray-google-dark-600);
+  --color-checkbox-background: var(--color-transparent);
+  --color-checkbox-border-active: var(--color-text);
+  --color-checkbox-background-active: var(--color-transparent);
+  --color-checkbox-border-hover: var(--color-text);
+  --color-checkbox-check: var(--color-text);
+  --color-checkbox-label: var(--color-text);
+  --color-checkbox-label-hover: var(--color-text);
+  --color-checkbox-label-active: var(--color-text);
+  --checkbox-border-radius: 1px;
+  --checkbox-toggle-size: 100%;
+  --checkbox-border-width: 2px;
+  --checkbox-overlay-active-background: var(--gray-google-dark-700);
+  --checkbox-check-margin-top: 0;
+  --checkbox-check-margin-left: 0;
+}

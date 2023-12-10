@@ -1,0 +1,28 @@
+@mixin button-tertiary {
+
+  --color-button-background-tertiary: var(--color-transparent);
+  --color-button-background-tertiary-hover: var(--gray-default-dark-700);
+  --color-button-background-tertiary-pressed: var(--gray-default-dark-700);
+  --color-button-background-tertiary-disabled: var(--color-transparent);
+
+  --color-button-text-tertiary: var(--gray-default-dark-600);
+  --color-button-text-tertiary-hover: var(--color-primary);
+  --color-button-text-tertiary-pressed: var(--color-primary);
+  --color-button-text-tertiary-disabled: var(--gray-default-dark-700);
+
+  --color-button-border-tertiary: var(--color-transparent);
+  --color-button-border-tertiary-hover: var(--color-transparent);
+  --color-button-border-tertiary-pressed: var(--color-transparent);
+  --color-button-border-tertiary-disabled: var(--color-transparent);
+
+  --color-button-box-shadow-tertiary: none;
+  --color-button-box-shadow-tertiary-hover: none;
+  --color-button-box-shadow-tertiary-pressed: none;
+  --color-button-box-shadow-tertiary-disabled: none;
+
+  --color-button-text-shadow-tertiary: none;
+  --color-button-text-shadow-tertiary-hover: none;
+  --color-button-text-shadow-tertiary-pressed: none;
+  --color-button-text-shadow-tertiary-disabled: none;
+
+}

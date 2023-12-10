@@ -1,0 +1,8 @@
+@import "text";
+@import "general";
+
+
+@mixin header {
+  @include header-text;
+  @include header-general;
+}

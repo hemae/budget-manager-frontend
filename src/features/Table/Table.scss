@@ -1,0 +1,44 @@
+.feature-table {
+    transition: all 0.15s;
+
+    &__scroll-wrapper {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    &__table {
+        width: calc(100% + 4px);
+        margin: 0 -2px 0 -2px;
+
+        &.responsible {
+            width: max-content;
+        }
+    }
+
+    &__header {
+        padding: 16px 20px;
+    }
+
+    &__columns-control {
+    }
+
+    &__content {
+        &.expanded {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+
+    &.expanded {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        border-radius: 0;
+        z-index: 13;
+        overflow-y: auto;
+    }
+}

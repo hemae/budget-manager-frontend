@@ -1,0 +1,28 @@
+@mixin button-quaternary {
+
+  --color-button-background-quaternary: var(--white-default-light);
+  --color-button-background-quaternary-hover:  var(--blue-default-light-100);
+  --color-button-background-quaternary-pressed: var(--blue-default-light-200);
+  --color-button-background-quaternary-disabled:  var(--white-default-light);
+
+  --color-button-text-quaternary: var(--color-primary);
+  --color-button-text-quaternary-hover: var(--blue-default-light-800);
+  --color-button-text-quaternary-pressed: var(--blue-default-light-900);
+  --color-button-text-quaternary-disabled: var(--blue-default-light-300);
+
+  --color-button-border-quaternary: var(--color-primary);
+  --color-button-border-quaternary-hover: var(--blue-default-light-800);
+  --color-button-border-quaternary-pressed: var(--blue-default-light-900);
+  --color-button-border-quaternary-disabled: var(--blue-default-light-300);
+
+  --color-button-box-shadow-quaternary: none;
+  --color-button-box-shadow-quaternary-hover: none;
+  --color-button-box-shadow-quaternary-pressed: none;
+  --color-button-box-shadow-quaternary-disabled: none;
+
+  --color-button-text-shadow-quaternary: none;
+  --color-button-text-shadow-quaternary-hover: none;
+  --color-button-text-shadow-quaternary-pressed: none;
+  --color-button-text-shadow-quaternary-disabled: none;
+
+}

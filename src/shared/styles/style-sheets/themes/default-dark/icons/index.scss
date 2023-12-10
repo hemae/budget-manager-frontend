@@ -1,0 +1,7 @@
+@import "tools";
+@import "tooltips";
+
+@mixin icons {
+  @include icons-tooltips;
+  @include icons-tools;
+}

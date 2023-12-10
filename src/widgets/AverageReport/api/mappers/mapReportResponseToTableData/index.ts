@@ -1,0 +1,1 @@
+export {mapReportResponseToTableData} from './mapReportResponseToTableData'

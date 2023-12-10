@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans|Lato|Noto+Sans:400italic,500italic,600italic,700italic,400,500,600,700);
+
+@import "sidebar";
+@import "header";
+@import "body";
+@import "buttons";
+@import "notify";
+@import "icons";
+@import "tooltips";
+@import "validation";
+@import "inputs";
+@import "badges";
+@import "card";
+@import "table";
+@import "calendar";
+@import "dropdown";
+@import "select-dropdown";
+@import "check-minus-icon";
+@import "paginator";
+@import "tabs";
+@import "range";
+@import "checkbox";
+@import "user-avatar";
+@import "loader";
+@import "dynamic-progress-bar";
+
+
+:root[data-theme="default-dark"] {
+
+  --main-font: Open Sans,sans-serif;
+
+  --blue-default-dark-50: #EDF4FD;
+  --blue-default-dark-100: #DCECF9;
+  --blue-default-dark-200: #B7D7F0;
+  --blue-default-dark-300: #91C3E7;
+  --blue-default-dark-400: #669DF6;
+  --blue-default-dark-500: #4285F4;
+  --blue-default-dark-600: #0A68B1;
+  --blue-default-dark-700: #075088;
+  --blue-default-dark-800: #043C6A;
+  --blue-default-dark-900: #03224F;
+
+  --red-default-dark-50: #FCE8E6;
+  --red-default-dark-100: #FAD2CF;
+  --red-default-dark-200: #F6AEA9;
+  --red-default-dark-300: #da6d7d;
+  --red-default-dark-400: #e3495b;
+  --red-default-dark-500: #C61C3C;
+  --red-default-dark-600: #a20c28;
+  --red-default-dark-700: #910c25;
+  --red-default-dark-800: #760F1F;
+  --red-default-dark-900: #4B0816;
+
+  --yellow-default-dark-50: #FEF7E0;
+  --yellow-default-dark-100: #FEEFC3;
+  --yellow-default-dark-200: #FDE293;
+  --yellow-default-dark-300: #FDD663;
+  --yellow-default-dark-400: #FCC934;
+  --yellow-default-dark-500: #FBBC04;
+  --yellow-default-dark-600: #F9AB00;
+  --yellow-default-dark-700: #bd841a;
+  --yellow-default-dark-800: #82600F;
+  --yellow-default-dark-900: #5e4710;
+
+  --green-default-dark-50: #E6F4EA;
+  --green-default-dark-100: #CEEAD6;
+  --green-default-dark-200: #A8DAB5;
+  --green-default-dark-300: #81C995;
+  --green-default-dark-400: #5BB974;
+  --green-default-dark-500: #34A853;
+  --green-default-dark-600: #1E8E3E;
+  --green-default-dark-700: #188038;
+  --green-default-dark-800: #17752C;
+  --green-default-dark-900: #0D652D;
+
+  --gray-default-dark-50: #F8F9FA;
+  --gray-default-dark-100: #F3F3F3;
+  --gray-default-dark-200: #EAEAEA;
+  --gray-default-dark-300: #D2D2D2;
+  --gray-default-dark-400: #BCBCBC;
+  --gray-default-dark-500: #A1A1A1;
+  --gray-default-dark-600: #80868B;
+  --gray-default-dark-700: #656662;
+  --gray-default-dark-800: #3C4043;
+  --gray-default-dark-900: #232421;
+
+  --color-primary: var(--blue-default-dark-600);
+  --color-text: var(--gray-default-dark-500);
+  --white-default-dark: #ffffff;
+  --black-default-dark: #000000;
+  --color-transparent: transparent;
+  --color-error-notify: #f75676;
+  --color-info-notify: #37d5f2;
+  --color-success-notify: #4fd69c;
+  --color-warning-notify: #fc7c5f;
+  --color-notify-text: rgba(255, 255, 255, 0.85);
+  --color-icon-tool: #adb5bd;
+  --color-sidebar-background: var(--gray-default-dark-900);
+  --color-tooltips-background: #303C45;
+  --color-app-background: var(--gray-default-dark-700);
+  --color-header: var(--gray-default-dark-800);
+  --color-green: var(--green-default-dark-600);
+  --color-yellow: var(--yellow-default-dark-600);
+  --color-border: var(--gray-default-dark-700);
+
+  @include sidebar;
+  @include header;
+  @include body;
+  @include buttons;
+  @include notify;
+  @include icons;
+  @include tooltips;
+  @include validation;
+  @include inputs;
+  @include badges;
+  @include card;
+  @include table;
+  @include calendar;
+  @include dropdown;
+  @include select-dropdown;
+  @include check-minus-icon;
+  @include paginator;
+  @include tabs;
+  @include range;
+  @include checkbox;
+  @include user-avatar;
+  @include loader;
+  @include dynamic-progress-bar;
+}

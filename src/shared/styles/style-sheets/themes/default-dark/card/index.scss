@@ -1,0 +1,5 @@
+@import "general";
+
+@mixin card {
+  @include card-general;
+}

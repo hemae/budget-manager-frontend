@@ -1,0 +1,1 @@
+export {setCookieToken} from './setCookieToken'

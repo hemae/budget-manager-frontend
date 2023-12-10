@@ -1,0 +1,9 @@
+@mixin icons-tools {
+  --color-icon-tools: var(--color-icon-tool);
+  --color-icon-tools-edit: var(--color-primary);
+  --color-icon-tools-delete: var(--gray-google-dark-700);
+  --color-icon-tools-file: var(--color-primary);
+  --color-icon-tools-edit-hover: var(--color-primary);
+  --color-icon-tools-delete-hover: var(--gray-google-dark-700);
+  --color-icon-tools-file-hover: var(--color-primary);
+}

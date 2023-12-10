@@ -1,0 +1,14 @@
+.ui-calendar-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+}
+
+.ui-calendar-interactive-item {
+  cursor: pointer;
+
+  &.notAvailable {
+    cursor: not-allowed;
+  }
+}

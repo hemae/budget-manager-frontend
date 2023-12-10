@@ -1,0 +1,11 @@
+.ui-date-select {
+  position: relative;
+
+  > *:not(input) {
+    font-size: 14px;
+  }
+
+  &__input {
+    cursor: pointer;
+  }
+}

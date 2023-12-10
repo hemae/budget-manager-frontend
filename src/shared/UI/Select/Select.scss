@@ -1,0 +1,21 @@
+.ui-select {
+  transition: all .15s;
+  position: relative;
+
+  &__input {
+    cursor: pointer;
+  }
+
+  &.search {
+    input {
+      cursor: initial;
+    }
+  }
+
+  &__caret {
+    transition: all .15s;
+    &.active {
+      transform: rotate(180deg);
+    }
+  }
+}

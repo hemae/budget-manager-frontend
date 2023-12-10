@@ -1,0 +1,1 @@
+export const preferredTotalCurrencyCookieFieldName = 'preferredTotalCurrencyId'

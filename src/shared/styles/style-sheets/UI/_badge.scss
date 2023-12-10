@@ -1,0 +1,19 @@
+.ui-badge {
+
+  border-radius: var(--badge-border-radius);
+
+  &.default {
+    background-color: var(--color-badge-general-background);
+    color: var(--color-badge-general-text);
+  }
+
+  &.success {
+    background-color: var(--color-badge-success-background);
+    color: var(--color-badge-success-text);
+  }
+
+  &.danger {
+    background-color: var(--color-badge-danger-background);
+    color: var(--color-badge-danger-text);
+  }
+}

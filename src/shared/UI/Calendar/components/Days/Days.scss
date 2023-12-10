@@ -1,0 +1,16 @@
+.ui-calendar-days {
+
+  &__day-name {
+    font-weight: 600;
+  }
+
+  &__day-item {
+    width: 26px;
+    height: 26px;
+    margin: 2px;
+
+    &.notAllowed {
+      cursor: not-allowed;
+    }
+  }
+}

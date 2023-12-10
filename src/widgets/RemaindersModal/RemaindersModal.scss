@@ -1,0 +1,17 @@
+.widget-remainders-modal {
+  width: 300px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+
+  > *:not(:last-child) {
+    margin-bottom: 24px;
+  }
+
+  &__item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: var(--color-text);
+  }
+}

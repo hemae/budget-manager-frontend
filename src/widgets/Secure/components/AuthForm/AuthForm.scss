@@ -1,0 +1,27 @@
+.entity-auth-auth-form {
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  > * {
+    width: 30%;
+  }
+
+  > *:not(:last-child) {
+    margin-bottom: 24px;
+  }
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+
+    > * {
+      width: 48%;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.ui-badge-counter {
+
+  &__counter {
+    background: var(--color-button-background-primary, #0A68B1);
+    color: var(--color-button-text-primary, #FFFFFF);
+  }
+}

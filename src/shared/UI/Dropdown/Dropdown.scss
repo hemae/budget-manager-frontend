@@ -1,0 +1,51 @@
+.ui-dropdown {
+
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  height: max-content;
+
+  position: absolute;
+  transform: scaleY(0);
+  transition: all .1s;
+
+  > * {
+    opacity: 0;
+    transition: none;
+  }
+
+  &.top-left {
+    bottom: 108%;
+    left: 0;
+    transform-origin: bottom;
+  }
+
+  &.bottom-left {
+    top: 108%;
+    left: 0;
+    transform-origin: top;
+  }
+
+  &.top-right {
+    bottom: 108%;
+    right: 0;
+    transform-origin: bottom;
+  }
+
+  &.bottom-right {
+    top: 108%;
+    right: 0;
+    transform-origin: top;
+  }
+
+  &.shown {
+    transform: scaleY(1);
+  }
+
+  &.contentShown {
+    > * {
+      opacity: 1;
+      transition: all .15s;
+    }
+  }
+}

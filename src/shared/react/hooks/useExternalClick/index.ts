@@ -1,0 +1,1 @@
+export { useExternalClick } from './useExternalClick';

@@ -1,0 +1,23 @@
+@mixin side-bar-sublink {
+
+  --color-side-bar-sublink-background: transparent;
+  --color-side-bar-sublink-background-hover: var(--color-sidebar-link-hover);
+  --color-side-bar-sublink-background-selected: var(--blue-google-light-50);
+  --color-side-bar-sublink-background-selected-hover: var(--blue-google-light-50);
+
+  --color-side-bar-sublink-text: var(--color-sidebar-text);
+  --color-side-bar-sublink-text-hover: var(--color-sidebar-text);
+  --color-side-bar-sublink-text-selected: var(--color-primary);
+  --color-side-bar-sublink-text-selected-hover: var(--color-primary);
+
+  --color-side-bar-sublink-border: transparent;
+  --color-side-bar-sublink-border-hover: transparent;
+  --color-side-bar-sublink-border-selected: transparent;
+  --color-side-bar-sublink-border-selected-hover: transparent;
+
+  --color-side-bar-sublink-box-shadow: none;
+  --color-side-bar-sublink-box-shadow-hover: none;
+  --color-side-bar-sublink-box-shadow-selected: none;
+  --color-side-bar-sublink-box-shadow-selected-hover: none;
+
+}

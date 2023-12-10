@@ -1,0 +1,6 @@
+@mixin dynamic-progress-bar {
+  --color-progress-bar-thumb-extra-sucess: var(--green-default-dark-600);
+  --color-progress-bar-thumb-sucess: var(--green-default-dark-300);
+  --color-progress-bar-thumb-warning: var(--yellow-default-dark-600);
+  --color-progress-bar-thumb-danger: var(--red-default-dark-500);
+}

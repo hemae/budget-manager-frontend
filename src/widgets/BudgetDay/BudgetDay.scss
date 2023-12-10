@@ -1,0 +1,31 @@
+.widget-budget-day {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 0;
+  width: 100%;
+
+  &__header {
+    align-self: flex-start;
+    padding-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    > *:first-child {
+      .ui-input-wrapper {
+        * {
+          border-color: transparent !important;
+        }
+
+        svg {
+          color: transparent;
+        }
+      }
+    }
+  }
+
+  > *:not(:last-child) {
+    margin-bottom: 4px;
+  }
+}

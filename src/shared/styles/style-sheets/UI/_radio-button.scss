@@ -1,0 +1,27 @@
+.ui-radio-button {
+
+  label {
+    color: var(--color-text);
+  }
+
+  &:hover {
+    label {
+      color: var(--color-primary);
+    }
+  }
+
+  &__input {
+    background-color: var(--color-transparent);
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+
+    &::before {
+      box-shadow: inset 1em 1em var(--color-primary);
+    }
+  }
+
+  &__label {
+    font-size: 15px;
+    transition: color .15s;
+  }
+}

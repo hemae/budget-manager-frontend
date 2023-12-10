@@ -1,0 +1,38 @@
+.feature-modal-drawer {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  right: -200vw;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 14;
+  transition: right .2s;
+
+  &.shown {
+    transition: right .8s;
+    right: 0;
+  }
+
+  &__body {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transition: width .5s;
+
+    > svg[id="close-modal"] {
+      position: absolute;
+      top: 19px;
+      left: 10px;
+    }
+
+    > button[id="extend-button"] {
+      position: absolute;
+      top: calc((100% - 40px) / 2);
+      left: - 30px / 2;
+      z-index: 12;
+    }
+  }
+}

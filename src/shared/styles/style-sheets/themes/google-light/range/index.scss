@@ -1,0 +1,9 @@
+@mixin range {
+  --color-range-slot-background: var(--gray-google-light-200);
+  --range-slot-box-shadow: inset 0 0 5px var(--gray-google-light-300);
+  --color-range-thumb-background: var(--color-primary);
+  --color-range-thumb-background-hover: var(--color-primary);
+  --color-range-thumb-background-active: var(--color-primary);
+  --color-range-badge-background: var(--gray-google-light-600);
+  --color-range-badge-text: var(--gray-google-light-50);
+}

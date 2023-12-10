@@ -1,0 +1,130 @@
+@import "sidebar";
+@import "header";
+@import "body";
+@import "buttons";
+@import "notify";
+@import "icons";
+@import "tooltips";
+@import "validation";
+@import "inputs";
+@import "badges";
+@import "card";
+@import "table";
+@import "calendar";
+@import "dropdown";
+@import "select-dropdown";
+@import "check-minus-icon";
+@import "paginator";
+@import "tabs";
+@import "range";
+@import "checkbox";
+@import "user-avatar";
+@import "loader";
+@import "dynamic-progress-bar";
+
+
+:root[data-theme="google-dark"] {
+
+  --main-font: Google Sans,sans-serif;
+
+  --blue-google-dark-50: #E8F0FE;
+  --blue-google-dark-100: #D2E3FC;
+  --blue-google-dark-200: #AECBFA;
+  --blue-google-dark-300: #8AB4F8;
+  --blue-google-dark-400: #669DF6;
+  --blue-google-dark-500: #4285F4;
+  --blue-google-dark-600: #1A73E8;
+  --blue-google-dark-700: #1967D2;
+  --blue-google-dark-800: #185ABC;
+  --blue-google-dark-900: #174EA6;
+
+  --red-google-dark-50: #FCE8E6;
+  --red-google-dark-100: #FAD2CF;
+  --red-google-dark-200: #F6AEA9;
+  --red-google-dark-300: #F28B82;
+  --red-google-dark-400: #EE675C;
+  --red-google-dark-500: #EA4335;
+  --red-google-dark-600: #D93025;
+  --red-google-dark-700: #C5221F;
+  --red-google-dark-800: #B31412;
+  --red-google-dark-900: #A50E0E;
+
+  --yellow-google-dark-50: #FEF7E0;
+  --yellow-google-dark-100: #FEEFC3;
+  --yellow-google-dark-200: #FDE293;
+  --yellow-google-dark-300: #FDD663;
+  --yellow-google-dark-400: #FCC934;
+  --yellow-google-dark-500: #FBBC04;
+  --yellow-google-dark-600: #F9AB00;
+  --yellow-google-dark-700: #F29900;
+  --yellow-google-dark-800: #EA8600;
+  --yellow-google-dark-900: #E37400;
+
+  --green-google-dark-50: #E6F4EA;
+  --green-google-dark-100: #CEEAD6;
+  --green-google-dark-200: #A8DAB5;
+  --green-google-dark-300: #81C995;
+  --green-google-dark-400: #5BB974;
+  --green-google-dark-500: #34A853;
+  --green-google-dark-600: #1E8E3E;
+  --green-google-dark-700: #188038;
+  --green-google-dark-800: #137333;
+  --green-google-dark-900: #0D652D;
+
+  --gray-google-dark-50: #F8F9FA;
+  --gray-google-dark-100: #F1F3F4;
+  --gray-google-dark-200: #E8EAED;
+  --gray-google-dark-300: #DADCE0;
+  --gray-google-dark-400: #BDC1C6;
+  --gray-google-dark-500: #9AA0A6;
+  --gray-google-dark-600: #80868B;
+  --gray-google-dark-700: #5F6368;
+  --gray-google-dark-800: #3C4043;
+  --gray-google-dark-900: #202124;
+
+  --color-primary: var(--gray-google-dark-600);
+  --color-text: var(--gray-google-dark-400);
+  --color-sidebar-text: var(--gray-google-dark-400);
+  --color-sidebar-link-hover: transparent;
+  --color-header-text-general: var(--gray-google-dark-400);
+  --white-google-dark: #ffffff;
+  --black-google-dark: #000000;
+  --color-transparent: transparent;
+  --color-error-notify: #f75676;
+  --color-info-notify: #37d5f2;
+  --color-success-notify: #4fd69c;
+  --color-warning-notify: #fc7c5f;
+  --color-notify-text: rgba(255, 255, 255, 0.85);
+  --color-icon-tool: #adb5bd;
+  --color-tooltips-background: #303C45;
+  --color-app-background: var(--gray-google-dark-900);
+  --color-header:  var(--gray-google-dark-900);
+  --color-sidebar-background: var(--gray-google-dark-900);
+  --color-green: var(--green-google-dark-600);
+  --color-yellow: var(--yellow-google-dark-600);
+  --color-border: var(--gray-google-dark-700);
+
+  @include sidebar;
+  @include header;
+  @include body;
+  @include buttons;
+  @include notify;
+  @include icons;
+  @include tooltips;
+  @include validation;
+  @include inputs;
+  @include badges;
+  @include card;
+  @include table;
+  @include calendar;
+  @include dropdown;
+  @include select-dropdown;
+  @include check-minus-icon;
+  @include paginator;
+  @include tabs;
+  @include range;
+  @include checkbox;
+  @include user-avatar;
+  @include loader;
+  @include dynamic-progress-bar;
+}

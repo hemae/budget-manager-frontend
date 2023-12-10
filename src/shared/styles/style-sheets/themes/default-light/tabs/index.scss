@@ -1,0 +1,57 @@
+@mixin tabs {
+  //--tabs-border-bottom: none;
+  //--tabs-item-flex: 1;
+  //--tabs-item-width: unset;
+  //
+  //--tabs-item-background: var(--white-default-light);
+  //--tabs-item-background-hover: var(--blue-default-light-100);
+  //--tabs-item-background-pressed: var(--blue-default-light-200);
+  //
+  //--tabs-item-text: var(--color-primary);
+  //--tabs-item-text-hover: var(--blue-default-light-800);
+  //--tabs-item-text-pressed: var(--blue-default-light-900);
+  //
+  //--tabs-item-border: var(--color-primary);
+  //--tabs-item-border-hover: var(--blue-default-light-800);
+  //--tabs-item-border-pressed: var(--blue-default-light-900);
+  //
+  //--tabs-item-active-background: var(--blue-default-light-900);
+  //--tabs-item-active-background-hover: var(--blue-default-light-900);
+  //--tabs-item-active-background-pressed: var(--blue-default-light-900);
+  //
+  //--tabs-item-active-text: var(--white-default-light);
+  //--tabs-item-active-text-hover: var(--white-default-light);
+  //--tabs-item-active-text-pressed: var(--white-default-light);
+  //
+  //--tabs-item-active-border: none;
+  //--tabs-item-active-border-hover: none;
+  //--tabs-item-active-border-pressed: none;
+
+  --tabs-border-bottom: 1px solid var(--gray-default-light-500);
+  --tabs-item-flex: unset;
+  --tabs-item-width: max-content;
+
+  --tabs-item-background: var(--color-transparent);
+  --tabs-item-background-hover: var(--color-transparent);
+  --tabs-item-background-pressed: var(--color-transparent);
+
+  --tabs-item-text: var(--color-text);
+  --tabs-item-text-hover: var(--color-text);
+  --tabs-item-text-pressed: var(--color-text);
+
+  --tabs-item-border: none;
+  --tabs-item-border-hover: none;
+  --tabs-item-border-pressed: none;
+
+  --tabs-item-active-background: var(--color-transparent);
+  --tabs-item-active-background-hover: var(--color-transparent);
+  --tabs-item-active-background-pressed: var(--color-transparent);
+
+  --tabs-item-active-text: var(--color-text);
+  --tabs-item-active-text-hover: var(--color-text);
+  --tabs-item-active-text-pressed: var(--color-text);
+
+  --tabs-item-active-border: none;
+  --tabs-item-active-border-hover: none;
+  --tabs-item-active-border-pressed: none;
+}

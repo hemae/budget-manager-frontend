@@ -1,0 +1,1 @@
+export { generateDummyArray } from './generateDummyArray';

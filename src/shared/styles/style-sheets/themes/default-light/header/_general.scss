@@ -1,0 +1,7 @@
+@mixin header-general {
+  --color-header-background: var(--color-header);
+  --color-header-text: var(--color-text);
+  --color-header-border: var(--color-transparent);
+  --header-external-link-current-border-color: var(--color-primary);
+  --header-external-link-border-color-hover: var(--blue-default-light-900);
+}

@@ -1,0 +1,41 @@
+.ui-badge-counter {
+  position: relative;
+  display: flex;
+
+  &__counter {
+    position: absolute;
+    padding: 0 3px;
+    border-radius: 10px;
+    font-size: 12px;
+    transform: scale(0);
+    transition: all .15s;
+    min-width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &.bottom-left {
+      bottom: -12px;
+      left: -6px;
+    }
+
+    &.bottom-right {
+      bottom: -12px;
+      right: -6px;
+    }
+
+    &.top-left {
+      top: -12px;
+      left: -6px;
+    }
+
+    &.top-right {
+      top: -12px;
+      right: -6px;
+    }
+
+    &.rendered {
+      transform: scale(1);
+    }
+  }
+}

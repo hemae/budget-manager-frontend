@@ -1,0 +1,36 @@
+.widget-budget-day-total-row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  color: var(--color-text);
+
+  .ui-input {
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  &__label {
+    width: calc(16% - 12px);
+    padding-left: 12px;
+
+    &.expense {
+      color: var(--color-yellow);
+    }
+
+    &.income {
+      color: var(--color-green);
+    }
+  }
+
+  &__total {
+    width: 13%;
+  }
+
+  > *:nth-child(3) {
+    width: 12%;
+  }
+}

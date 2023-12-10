@@ -1,0 +1,27 @@
+.ui-small-loader {
+  animation: loader 0.80s cubic-bezier(1, 1, 0, 0) infinite;
+  height: 16px;
+  width: max-content;
+
+  &__spinner {
+    width: 16px;
+    height: 8px;
+    border-radius: 16px 16px 0 0;
+    border-top: 1.6px solid;
+    border-left: 1.6px solid;
+    border-right: 1.6px solid;
+    border-color: currentColor;
+  }
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

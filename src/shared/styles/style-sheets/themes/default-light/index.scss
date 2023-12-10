@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans|Lato|Noto+Sans:400italic,500italic,600italic,700italic,400,500,600,700);
+
+@import "sidebar";
+@import "header";
+@import "body";
+@import "buttons";
+@import "notify";
+@import "icons";
+@import "tooltips";
+@import "react-tooltip";
+@import "validation";
+@import "inputs";
+@import "badges";
+@import "card";
+@import "table";
+@import "calendar";
+@import "dropdown";
+@import "select-dropdown";
+@import "check-minus-icon";
+@import "paginator";
+@import "tabs";
+@import "range";
+@import "checkbox";
+@import "user-avatar";
+@import "loader";
+@import "dynamic-progress-bar";
+
+
+:root {
+
+  --main-font: Open Sans,sans-serif;
+
+  --blue-default-light-50: #EDF4FD;
+  --blue-default-light-100: #DCECF9;
+  --blue-default-light-200: #B7D7F0;
+  --blue-default-light-300: #91C3E7;
+  --blue-default-light-400: #669DF6;
+  --blue-default-light-500: #4285F4;
+  --blue-default-light-600: #0A68B1;
+  --blue-default-light-700: #075088;
+  --blue-default-light-800: #043C6A;
+  --blue-default-light-900: #03224F;
+
+  --red-default-light-50: #FCE8E6;
+  --red-default-light-100: #FAD2CF;
+  --red-default-light-200: #F6AEA9;
+  --red-default-light-300: #da6d7d;
+  --red-default-light-400: #e3495b;
+  --red-default-light-500: #C61C3C;
+  --red-default-light-600: #a20c28;
+  --red-default-light-700: #910c25;
+  --red-default-light-800: #760F1F;
+  --red-default-light-900: #4B0816;
+
+  --yellow-default-light-50: #FEF7E0;
+  --yellow-default-light-100: #FEEFC3;
+  --yellow-default-light-200: #FDE293;
+  --yellow-default-light-300: #FDD663;
+  --yellow-default-light-400: #FCC934;
+  --yellow-default-light-500: #FBBC04;
+  --yellow-default-light-600: #F9AB00;
+  --yellow-default-light-700: #bd841a;
+  --yellow-default-light-800: #82600F;
+  --yellow-default-light-900: #5e4710;
+
+  --green-default-light-50: #E6F4EA;
+  --green-default-light-100: #CEEAD6;
+  --green-default-light-200: #A8DAB5;
+  --green-default-light-300: #81C995;
+  --green-default-light-400: #5BB974;
+  --green-default-light-500: #34A853;
+  --green-default-light-600: #1E8E3E;
+  --green-default-light-700: #188038;
+  --green-default-light-800: #17752C;
+  --green-default-light-900: #0D652D;
+
+  --gray-default-light-50: #F8F9FA;
+  --gray-default-light-100: #F3F3F3;
+  --gray-default-light-200: #EAEAEA;
+  --gray-default-light-300: #D2D2D2;
+  --gray-default-light-400: #BCBCBC;
+  --gray-default-light-500: #A1A1A1;
+  --gray-default-light-600: #80868B;
+  --gray-default-light-700: #656662;
+  --gray-default-light-800: #3C4043;
+  --gray-default-light-900: #232421;
+
+  --color-primary: var(--green-default-light-500);
+  --color-secondary: var(--green-default-light-600);
+  --color-text: var(--gray-default-light-50);
+  --white-default-light: #ffffff;
+  --black-default-light: #000000;
+  --color-transparent: transparent;
+  --color-notify-text: rgba(255, 255, 255, 0.85);
+  --color-icon-tool: #adb5bd;
+  --color-sidebar-background: #F8FBFF;
+  --color-tooltips-background: #303C45;
+  --color-app-background: var(--gray-default-light-900);
+  --color-header: var(--blue-default-light-50);
+  --color-green: var(--green-default-light-600);
+  --color-yellow: var(--yellow-default-light-600);
+  --color-border: var(--gray-default-light-300);
+
+  @include sidebar;
+  @include header;
+  @include body;
+  @include buttons;
+  @include notify;
+  @include icons;
+  @include tooltips;
+  @include react-tooltip;
+  @include validation;
+  @include inputs;
+  @include badges;
+  @include card;
+  @include table;
+  @include calendar;
+  @include dropdown;
+  @include select-dropdown;
+  @include check-minus-icon;
+  @include paginator;
+  @include tabs;
+  @include range;
+  @include checkbox;
+  @include user-avatar;
+  @include loader;
+  @include dynamic-progress-bar;
+}

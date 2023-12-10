@@ -1,0 +1,1 @@
+export {mapIncomeCategoryFormValuesToCreation} from './mapIncomeCategoryFormValuesToCreation'

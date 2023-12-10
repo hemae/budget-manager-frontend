@@ -1,0 +1,1 @@
+export { useAdditionalAttributes } from './useAdditionalAttributes';

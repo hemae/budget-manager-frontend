@@ -1,0 +1,25 @@
+.ui-single-calendar {
+  display: flex;
+  flex-direction: column;
+
+  &__select-area-wrapper {
+    margin: 0 20px 20px 20px;
+    width: 210px;
+    height: 210px;
+    position: relative;
+  }
+
+  &__select-area {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    &.none {
+      display: none;
+    }
+  }
+}

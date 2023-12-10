@@ -1,0 +1,103 @@
+$scale: 0.5;
+
+.ui-spinner {
+  display: inline-block;
+  position: relative;
+  width: 80px * $scale;
+  height: 80px * $scale;
+
+  div {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: var(--color-primary);
+    border-radius: 50%;
+    animation: ui-loader 0.9s linear infinite;
+  }
+
+  div:nth-child(1) {
+    animation-delay: 0s;
+    top: 37px * $scale;
+    left: 66px * $scale;
+  }
+
+  div:nth-child(2) {
+    animation-delay: -0.075s;
+    top: 22px * $scale;
+    left: 62px * $scale;
+  }
+
+  div:nth-child(3) {
+    animation-delay: -0.15s;
+    top: 11px * $scale;
+    left: 52px * $scale;
+  }
+
+  div:nth-child(4) {
+    animation-delay: -0.225s;
+    top: 7px * $scale;
+    left: 37px * $scale;
+  }
+
+  div:nth-child(5) {
+    animation-delay: -0.3s;
+    top: 11px * $scale;
+    left: 22px * $scale;
+  }
+
+  div:nth-child(6) {
+    animation-delay: -0.375s;
+    top: 22px * $scale;
+    left: 11px * $scale;
+  }
+
+  div:nth-child(7) {
+    animation-delay: -0.45s;
+    top: 37px * $scale;
+    left: 7px * $scale;
+  }
+
+  div:nth-child(8) {
+    animation-delay: -0.525s;
+    top: 52px * $scale;
+    left: 11px * $scale;
+  }
+
+  div:nth-child(9) {
+    animation-delay: -0.6s;
+    top: 62px * $scale;
+    left: 22px * $scale;
+  }
+
+  div:nth-child(10) {
+    animation-delay: -0.675s;
+    top: 66px * $scale;
+    left: 37px * $scale;
+  }
+
+  div:nth-child(11) {
+    animation-delay: -0.75s;
+    top: 62px * $scale;
+    left: 52px * $scale;
+  }
+
+  div:nth-child(12) {
+    animation-delay: -0.825s;
+    top: 52px * $scale;
+    left: 62px * $scale;
+  }
+}
+
+@keyframes ui-loader {
+  0%,
+  20%,
+  80%,
+  100% {
+    transform: scale(1);
+    opacity: 0.1;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+}

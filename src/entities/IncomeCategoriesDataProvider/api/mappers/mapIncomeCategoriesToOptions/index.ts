@@ -1,0 +1,1 @@
+export {mapIncomeCategoriesToOptions} from './mapIncomeCategoriesToOptions'

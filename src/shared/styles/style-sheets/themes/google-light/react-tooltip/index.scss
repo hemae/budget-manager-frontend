@@ -1,0 +1,5 @@
+@mixin react-tooltip {
+  --color-new-tooltip-background: var(--gray-google-light-900);
+  --color-new-tooltip-font: var(--gray-google-light-100);
+  --opacity-new-tooltip: 0.8;
+}

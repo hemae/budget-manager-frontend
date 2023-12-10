@@ -1,0 +1,5 @@
+@mixin card-general {
+  --color-card-background: var(--color-sidebar-background);
+  --card-box-shadow: 0 0 2rem 0 rgba(14, 13, 13, 0.40);
+  --card-border-color: none;
+}

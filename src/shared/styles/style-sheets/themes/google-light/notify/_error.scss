@@ -1,0 +1,7 @@
+@mixin notify-error {
+  --color-notify-error-background: var(--red-google-light-50);
+  --color-notify-error-icon: var(--red-google-light-800);
+  --color-notify-error-text: var(--color-text);
+  --color-notify-error-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 10px 20px rgba(0, 0, 0, 0.04);
+  --color-notify-error-border: var(--color-transparent);
+}

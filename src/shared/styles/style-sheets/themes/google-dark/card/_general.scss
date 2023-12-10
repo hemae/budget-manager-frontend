@@ -1,0 +1,5 @@
+@mixin card-general {
+  --color-card-background: var(--color-app-background);
+  --card-box-shadow: none;
+  --card-border-color: 1px solid var(--gray-google-dark-800);
+}

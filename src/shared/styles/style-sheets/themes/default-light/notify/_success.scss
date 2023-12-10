@@ -1,0 +1,7 @@
+@mixin notify-success {
+  --color-notify-success-background: var(--green-default-light-100);
+  --color-notify-success-icon: var(--green-default-light-800);
+  --color-notify-success-text: var(--color-text);
+  --color-notify-success-box-shadow: none;
+  --color-notify-success-border: var(--color-transparent);
+}

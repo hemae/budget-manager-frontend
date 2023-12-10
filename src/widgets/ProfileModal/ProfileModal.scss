@@ -1,0 +1,12 @@
+.widget-profile-modal {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  align-items: center;
+
+  > *:not(:last-child) {
+    margin-bottom: 24px;
+    width: 100%;
+  }
+}

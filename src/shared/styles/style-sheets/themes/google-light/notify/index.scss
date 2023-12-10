@@ -1,0 +1,12 @@
+@import "error";
+@import "info";
+@import "warning";
+@import "success";
+
+
+@mixin notify {
+  @include notify-error;
+  @include notify-info;
+  @include notify-warning;
+  @include notify-success;
+}
